@@ -1,0 +1,142 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 3;
+  width: -webkit-fill-available;
+  background-color: rgb(0, 0, 0);
+  /* margin: 2rem 5%; */
+  /* margin-inline: 5%;
+  margin-bottom: 2rem; */
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 4rem;
+  line-height: 1.7rem;
+  font-size: 2.7rem;
+  background-color: rgb(0, 0, 0);
+}
+.nav-connect {
+  padding: 1.3rem 2rem;
+  border-radius: 5rem;
+  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+  font-size: 1.9rem;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-right: 3%;
+}
+.logo {
+  width: 16rem;
+  height: 6rem;
+  margin-left: 3%;
+  /* padding-block: 0.3rem; */
+  z-index: 5;
+}
+.nav-connect:hover {
+  transform: scale(1.05);
+}
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.nav-menu li img {
+  display: flex;
+  margin: auto;
+  width: 5rem;
+}
+.anchor-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.nav-mob-close {
+  display: none;
+  cursor: pointer;
+}
+.nav-mob-open {
+  display: none;
+  cursor: pointer;
+  width: 3rem;
+}
+@media (max-width: 1040px) {
+  .navbar {
+    /* margin: 2rem 6%; */
+    /* background: none; */
+    /* z-index: 1; */
+    margin: 0rem 0%;
+  }
+  .nav-connect {
+    display: none;
+  }
+  .nav-mob-open {
+    display: block;
+    position: absolute;
+    right: 3rem;
+  }
+  .nav-mob-close {
+    display: block;
+    position: absolute;
+    top: 3rem;
+    right: 7%;
+    width: 2.5rem;
+  }
+  .navbar ul {
+    position: fixed;
+    flex-direction: column;
+    align-items: start;
+    top: 0;
+    gap: 6rem;
+    background-color: #1f0016;
+    width: 38rem;
+    height: 100vh;
+    z-index: 2;
+    transition: right 0.5s;
+    right: -44rem;
+    padding-top: 10rem;
+    transition: all 0.5s ease-in-out;
+  }
+  .nav-menu li {
+    font-size: 2.76rem;
+    padding-left: 5rem;
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .nav-menu li {
+    font-size: 3rem;
+  }
+  .logo {
+    height: 6.7rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .logo {
+    height: 6.5rem;
+  }
+  .navbar ul {
+    gap: 7rem;
+    width: 100%;
+    /* transition: right 0.5s; */
+    right: -64rem;
+    padding-top: 12rem;
+  }
+  .nav-menu li {
+    font-size: 3rem;
+    padding-left: 5rem;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .nav-mob-close {
+    top: 2rem;
+    right: 7%;
+    width: 2.6rem;
+  }
+}

@@ -1,0 +1,118 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-inline: 4%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.services-format {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+  padding: 3rem 3rem 0rem;
+  border-radius: 1rem;
+  border: 0.2rem solid white;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5rem;
+  gap: 5rem;
+}
+.services-format h3 {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+.services-format h2 {
+  font-size: 3.1rem;
+  font-weight: 800;
+  background: linear-gradient(270deg, #df8908 0%, #a200ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.services-format p {
+  color: #d4d4d4;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  max-width: 30rem;
+}
+.my-services {
+  padding-top: 3rem !important;
+}
+.services-readmore {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+.services-readmore img {
+  width: 2rem;
+}
+.services-format:hover {
+  border: 0.2rem solid #ff00ff;
+  background-image: linear-gradient(45deg, #3f0028, #582300);
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+
+@media (max-width: 900px) {
+  .services-format {
+    padding: 1rem 0.5rem 0rem 1.5rem;
+  }
+  .services-format h2 {
+    font-size: 3.3rem;
+  }
+  .services-format p {
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .services-format p {
+    font-size: 2.6rem;
+    /* line-height: 3.3rem; */
+    max-width: 40rem;
+  }
+  .services-format {
+    gap: 1rem;
+    padding: 3.5rem 4rem 1rem;
+  }
+  .services {
+    margin-inline: 7%;
+    /* padding-top: 3rem;
+    padding-bottom: 3rem; */
+  }
+  .services-container {
+    gap: 6rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .services {
+    margin-inline: 7%;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+  }
+  .services-container {
+    margin-top: 4rem;
+  }
+  .services-format p {
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    max-width: 39rem;
+  }
+  .services-format {
+    gap: 1rem;
+    padding: 3rem 5rem 0.5rem;
+  }
+}

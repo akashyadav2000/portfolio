@@ -1,0 +1,227 @@
+:root {
+  --text-color: #fff;
+  --main-color: #0ef;
+  --shadow-color: rgba(0, 0, 0, 0.7);
+}
+
+/* html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+} */
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  /* padding-inline: 10rem; */
+  padding-top: 3rem;
+  text-align: center;
+  align-items: center;
+}
+
+.portfolio-containerr {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  row-gap: 5rem;
+  column-gap: 7rem;
+  /* margin-top: 4.5rem; */
+  margin-top: 5rem;
+  /* margin-bottom: 2rem; */
+  padding-bottom: 2rem;
+}
+
+.portfolio-container {
+  display: flex;
+  /* grid-template-columns: repeat(3, 1fr); */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 7rem;
+  column-gap: 7rem;
+  /* margin-top: 4.5rem; */
+  margin-top: 6rem;
+  /* margin-bottom: 2rem; */
+  padding-bottom: 1rem;
+}
+
+.portfolio-container .portfolio-box {
+  position: relative;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem var(--bg-color);
+  overflow: hidden;
+  /* display: flex; */
+  height: 31rem;
+  width: 45rem;
+  /* height: 95%; */
+}
+
+.portfolio-box img {
+  height: 100%;
+  width: 100%;
+  transition: 0.5s ease;
+  border: 0.1rem solid rgb(255, 255, 255);
+  /* margin-block: 2.5rem; */
+}
+
+.portfolio-box:hover img {
+  filter: blur(0.4rem);
+}
+
+.portfolio-box .portfolio-layer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), var(--main-color));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 4rem;
+  transform: translateY(100%);
+  transition: 0.5s ease;
+}
+
+.portfolio-box:hover .portfolio-layer {
+  transform: translateY(0);
+}
+
+.portfolio-layer h4 {
+  font-size: 3rem;
+  color: white;
+  text-shadow: 0.1rem 0.1rem #000000;
+}
+
+.portfolio-layer p {
+  font-size: 2rem;
+  margin: 2rem 0 3rem;
+  color: var(--text-color);
+  text-shadow: 0.1rem 0.1rem #000000;
+}
+
+.portfolio-layer a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  background: var(--text-color);
+  border-radius: 50%;
+}
+
+.portfolio-layer a img {
+  width: 2.5rem;
+  height: auto;
+  color: var(--second-bg-color);
+}
+
+.portfolio-layer a img:last-of-type {
+  filter: none; /* Remove blur effect for the last img element within .portfolio-layer a */
+}
+
+@media (max-width: 900px) {
+  .portfolio-container {
+    row-gap: 6rem;
+    column-gap: 6rem;
+    margin-top: 6rem;
+    padding-bottom: 1rem;
+  }
+
+  /* .portfolio-container .portfolio-box {
+    height: 24rem;
+    width: 35rem;
+  } */
+  .portfolio-box .portfolio-layer {
+    padding: 0 2rem;
+  }
+  .portfolio-layer h4 {
+    font-size: 2.6rem;
+    text-shadow: 0.15rem 0.15rem #000000;
+  }
+
+  .portfolio-layer p {
+    font-size: 2rem;
+    margin: 1.5rem 0 2rem;
+  }
+
+  .portfolio-layer a {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+  .portfolio-container .portfolio-box {
+    height: 24rem;
+    width: 32rem;
+  }
+  .portfolio-layer a img {
+    width: 2.3rem;
+    height: auto;
+  }
+}
+@media (max-width: 800px) {
+  .portfolio-container .portfolio-box {
+    height: 24rem;
+    width: 32rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .portfolio-container .portfolio-box {
+    height: 100%;
+    width: 82%;
+  }
+  .portfolio-layer p {
+    font-size: 2.7rem;
+    margin: 1.5rem 0 2rem;
+  }
+  .portfolio-layer h4 {
+    font-size: 3.3rem;
+    text-shadow: 0.15rem 0.15rem #000000;
+  }
+  .portfolio-box .portfolio-layer {
+    padding: 0 5rem;
+  }
+  .portfolio-layer a {
+    width: 6rem;
+    height: 6rem;
+  }
+  .portfolio-layer a img {
+    width: 3.3rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 430px) {
+  .portfolio {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  .portfolio-container {
+    row-gap: 5rem;
+    margin-top: 4rem;
+  }
+  .portfolio-container .portfolio-box {
+    height: 100%;
+    width: 90%;
+  }
+  .portfolio-layer p {
+    font-size: 2.5rem;
+    margin: 1.5rem 0 2rem;
+  }
+  .portfolio-layer h4 {
+    font-size: 3rem;
+    text-shadow: 0.15rem 0.15rem #000000;
+  }
+  .portfolio-box .portfolio-layer {
+    padding: 0 3rem;
+  }
+  .portfolio-layer a {
+    width: 6rem;
+    height: 6rem;
+  }
+  .portfolio-layer a img {
+    width: 3.3rem;
+    height: auto;
+  }
+}

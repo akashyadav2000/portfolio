@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  /* font-family: "Poppins", sans-serif; */
+}
+
+html::-webkit-scrollbar {
+  width: 1.28rem;
+}
+html::-webkit-scrollbar-thumb {
+  background: linear-gradient(to top, #df8908 10%, #b415ff 100%);
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: #161513;
+  color: white;
+  font-family: "outfit";
+}
+.title-box {
+  position: relative;
+}
+.title-box h1 {
+  padding: 0rem 3rem;
+  font-size: 6rem;
+  font-weight: 600;
+  /* margin-top: 3rem; */
+}
+.title-box img {
+  width: 16rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1600px) and (max-height: 900px) {
+  html {
+    font-size: 59.3%;
+  }
+}
+
+@media screen and (max-width: 1536px) and (max-height: 864px) {
+  html {
+    font-size: 56.8%;
+  }
+}
+
+@media screen and (max-width: 1440px) and (max-height: 900px) {
+  html {
+    font-size: 57.9%;
+  }
+}
+
+@media screen and (max-width: 1366px) and (max-height: 768px) {
+  html {
+    font-size: 50.6%;
+  }
+}
+
+@media screen and (min-width: 1439px) and (max-width: 1600px) {
+  html {
+    font-size: 58%;
+  }
+}
+
+@media screen and (min-width: 1365px) and (max-width: 1440px) {
+  html {
+    font-size: 55.6%;
+  }
+}
+
+@media screen and (max-width: 1280px) and (max-height: 800px) {
+  html {
+    font-size: 51.5%;
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media screen and (min-width: 1115px) and (max-width: 1279px) {
+  html {
+    font-size: 53%;
+  }
+}
+
+@media screen and (max-width: 1114px) and (max-height: 705px) {
+  html {
+    font-size: 44.5%;
+  }
+}
+
+@media screen and (min-width: 961px) and (max-width: 1113px) and (max-height: 704px),
+  screen and (min-width: 961px) and (max-width: 1113px) and (min-height: 706px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 960px) and (max-height: 601px) {
+  html {
+    font-size: 38.7%;
+  }
+}
+
+@media screen and (min-width: 885px) and (max-width: 960px) and (max-height: 600px),
+  screen and (min-width: 885px) and (max-width: 960px) and (min-height: 602px) {
+  html {
+    font-size: 48.5%;
+  }
+}
+
+@media screen and (max-width: 884px) and (max-height: 1104px) {
+  html {
+    font-size: 60%;
+  }
+}
+@media screen and (min-width: 835px) and (max-width: 884px) and (max-height: 1103px),
+  screen and (min-width: 835px) and (max-width: 884px) and (min-height: 1105px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media screen and (max-width: 834px) and (max-height: 1194px) {
+  html {
+    font-size: 61.7%;
+  }
+}
+@media screen and (min-width: 821px) and (max-width: 834px) and (max-height: 1193px),
+  screen and (min-width: 821px) and (max-width: 834px) and (min-height: 1195px) {
+  html {
+    font-size: 61%;
+  }
+}
+@media screen and (max-width: 820px) and (max-height: 1180px) {
+  html {
+    font-size: 61%;
+  }
+}
+@media screen and (min-width: 811px) and (max-width: 820px) and (max-height: 1179px),
+  screen and (min-width: 811px) and (max-width: 820px) and (min-height: 1181px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media screen and (max-width: 810px) and (max-height: 1080px) {
+  html {
+    font-size: 60.5%;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 810px) and (max-height: 1079px),
+  screen and (min-width: 801px) and (max-width: 810px) and (min-height: 1081px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media screen and (max-width: 800px) and (max-height: 1280px) {
+  html {
+    font-size: 68%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 800px) and (max-height: 1279px),
+  screen and (min-width: 769px) and (max-width: 800px) and (min-height: 1281px) {
+  html {
+    font-size: 58%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 53%;
+  }
+}
+
+@media (max-width: 750px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 650px) {
+  html {
+    font-size: 45%;
+  }
+}
+@media (max-width: 550px) {
+  html {
+    font-size: 42%;
+  }
+}
+
+@media (max-width: 430px) {
+  html {
+    font-size: 42%;
+  }
+  .title-box h1 {
+    /* margin-top: 2rem; */
+    font-size: 5rem;
+  }
+}
