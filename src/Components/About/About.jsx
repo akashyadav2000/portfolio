@@ -17,15 +17,13 @@ const About = () => {
         </div>
         <div className="about-right">
           <div className="about-para">
-            <p>Passionate and driven web developer with a strong foundation in front-end technologies. Skilled in HTML, CSS, JavaScript, ReactJS, Redux-toolkit, and React-router with experience in building responsive web applications. Eager to contribute to innovative projects and expand my knowledge in the dynamic field of web development.</p>
-            <p>My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project. Ready to take on new challenges and make a positive impact in the field of web development</p>
+            <p>Passionate and driven web developer with a solid foundation in the MERN stack, including MongoDB, Express.js, React.js, and Node.js. Experienced in building responsive and visually captivating web applications. Eager to contribute to innovative projects and continuously expand my expertise by learning GSAP and Three.js for more advanced web development.
+            </p>
+            <p>My passion for Web development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project. Ready to take on new challenges and make a positive impact in the field of web development</p>
           </div>
           <div className="about-skills">
             <div className="about-skill">
-              <p>HTML</p><hr className='skill-line' />
-            </div>
-            <div className="about-skill">
-              <p>CSS</p><hr className='skill-line' />
+              <p>Html-Css</p><hr className='skill-line' />
             </div>
             <div className="about-skill">
               <p>JavaScript</p><hr className='skill-line' />
@@ -34,10 +32,13 @@ const About = () => {
               <p>React JS</p><hr className='skill-line' />
             </div>
             <div className="about-skill">
-              <p>Redux</p><hr className='skill-line' />
+              <p>Node JS</p><hr className='skill-line' />
             </div>
             <div className="about-skill">
-              <p>Node JS</p><hr className='skill-line' />
+              <p>Express JS</p><hr className='skill-line' />
+            </div>
+            <div className="about-skill">
+              <p>MongoDB</p><hr className='skill-line' />
             </div>
           </div>
         </div>

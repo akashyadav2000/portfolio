@@ -7,11 +7,11 @@ const Data = [
     link: "https://benzbakery.vercel.app/",
   },
   {
-    name: "Calculator",
+    name: "Cine Genero IMDB",
     description:
-      "Effortless calculations at your fingertips with online calculator app. Simplify your math tasks with accuracy and ease.",
-    image: "/Project-Images/calculator.webp",
-    link: "https://calculator-webapplication.vercel.app/",
+      "Dive into the cinematic universe with our IMDB web app. All the movie details you need, just a click away.",
+    image: "/Project-Images/cine_genero_IMDB.jpg",
+    link: "https://cine-genero-imdb.vercel.app/",
   },
   {
     name: "Todo list",

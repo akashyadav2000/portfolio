@@ -9,7 +9,7 @@ const Hero = () => {
     <div id='home' className='hero'>
       <img src={pro} alt="" className='profile-img' />
       <h1><span>I'm Akash Yadav,</span> Web developer based in INDIA.</h1>
-      <p>As a committed front-end developer, I have a lot of experience designing attractive user interfaces and creating seamless web applications. However, I am also looking forward to improving my skills to become a full-stack developer in the future. </p>
+      <p>MERN Stack Web Developer with a strong foundation in HTML, CSS, JavaScript, React.js, Redux, and Node.js.Proficient in building responsive, user-friendly interfaces and optimizing performance. Bring working knowledge of Express.js and MongoDB, with a keen interest in full-stack development.</p>
       <div className="hero-action">
         <div className="hero-connect">
           <AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink>

@@ -62,11 +62,11 @@
 }
 
 .about-skill:nth-child(2) hr {
-  width: var(--width-2, 80%);
+  width: var(--width-2, 70%);
 }
 
 .about-skill:nth-child(3) hr {
-  width: var(--width-3, 70%);
+  width: var(--width-3, 65%);
 }
 
 .about-skill:nth-child(4) hr {
@@ -74,7 +74,7 @@
 }
 
 .about-skill:nth-child(5) hr {
-  width: var(--width-5, 60%);
+  width: var(--width-5, 55%);
 }
 
 .about-skill:nth-child(6) hr {
@@ -202,9 +202,9 @@
     height: 1.1rem;
     --width-1: 65%;
     --width-2: 65%;
-    --width-3: 55%;
+    --width-3: 60%;
     --width-4: 55%;
-    --width-5: 50%;
+    --width-5: 55%;
     --width-6: 50%;
   }
 }
