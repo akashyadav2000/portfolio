@@ -1,6 +1,6 @@
 const Data = [
   {
-    name: "Benz bakery",
+    name: "Benz Bakery",
     description:
       "Benz Bakery is a dynamic and visually appealing web application built using Vite, React, Redux Toolkit, and React Router.",
     image: "/Project-Images/benz-bakery.webp",
@@ -10,7 +10,7 @@ const Data = [
     name: "Cine Genero IMDB",
     description:
       "Dive into the cinematic universe with our IMDB web app. All the movie details you need, just a click away.",
-    image: "/Project-Images/cine_genero_IMDB.jpg",
+    image: "/Project-Images/cine_genero_IMDB.webp",
     link: "https://cine-genero-imdb.vercel.app/",
   },
   {
@@ -29,18 +29,18 @@ const Data = [
     link: "https://akash-yadav-portfolio.vercel.app/",
   },
   {
-    name: "Bubble game",
+    name: "Bubble Game",
     description:
       "Pop your way to fun with our addictive bubble game! Click bubbles and beat your high score for endless entertainment.",
     image: "/Project-Images/bubble-game.webp",
     link: "https://bubble-game-green.vercel.app/",
   },
   {
-    name: "BMI Calculator",
+    name: "Giphy Clone",
     description:
-      "Discover your health status with our BMI calculator. Input your height and weight to get your body mass index.",
-    image: "/Project-Images/bmi-calculator.webp",
-    link: "https://bmi-calculator-webapp.vercel.app/",
+      "Effortlessly find and share the perfect GIF with GiphyClone. Express yourself and add fun to any moment. Start your GIF adventure now!",
+    image: "/Project-Images/giphy-clone.webp",
+    link: "https://giphyclone.vercel.app/",
   },
 ];
 
