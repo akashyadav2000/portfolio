@@ -25,7 +25,7 @@ const Data = [
     description:
       "Lodha Amara is a sleek and engaging real estate web application showcasing premium residences. Built for seamless user experience and effortless property exploration.",
     image: "/Project-Images/lodha_amara.webp",
-    link: "https://todo-lists-web-app.vercel.app/",
+    link: "lodha-amara-clone.vercel.app/",
   },
 
   {
