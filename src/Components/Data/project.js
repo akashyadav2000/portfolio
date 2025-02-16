@@ -14,6 +14,13 @@ const Data = [
     link: "https://cine-genero-imdb.vercel.app/",
   },
   {
+    name: "Giphy Clone",
+    description:
+      "Effortlessly find and share the perfect GIF with GiphyClone. Express yourself and add fun to any moment. Start your GIF adventure now!",
+    image: "/Project-Images/giphy-clone.webp",
+    link: "https://giphyclone.vercel.app/",
+  },
+  {
     name: "Lodha Amara",
     description:
       "Lodha Amara is a sleek and engaging real estate web application showcasing premium residences. Built for seamless user experience and effortless property exploration.",
@@ -35,13 +42,7 @@ const Data = [
     image: "/Project-Images/bubble-game.webp",
     link: "https://bubble-game-green.vercel.app/",
   },
-  {
-    name: "Giphy Clone",
-    description:
-      "Effortlessly find and share the perfect GIF with GiphyClone. Express yourself and add fun to any moment. Start your GIF adventure now!",
-    image: "/Project-Images/giphy-clone.webp",
-    link: "https://giphyclone.vercel.app/",
-  },
+
 ];
 
 export default Data;
