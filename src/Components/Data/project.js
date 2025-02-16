@@ -14,10 +14,10 @@ const Data = [
     link: "https://cine-genero-imdb.vercel.app/",
   },
   {
-    name: "Todo list",
+    name: "Lodha Amara",
     description:
-      "Stay organized effortlessly with our user-friendly todo list app. Manage tasks efficiently and conquer your day with ease.",
-    image: "/Project-Images/todo-list.webp",
+      "Lodha Amara is a sleek and engaging real estate web application showcasing premium residences. Built for seamless user experience and effortless property exploration.",
+    image: "/Project-Images/lodha_amara.webp",
     link: "https://todo-lists-web-app.vercel.app/",
   },
 
